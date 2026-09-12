@@ -1,0 +1,43 @@
+# Build outputs
+/build/
+/build-*/
+/out/
+*.exe
+*.o
+*.obj
+*.pdb
+*.dll
+*.a
+*.lib
+*.so
+
+# Local configuration and credentials
+CMakeUserPresets.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.keystore
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+*.local.*
+/private/
+/.ssh/
+/.aws/
+
+# Editor / OS temporary files
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Future language environments
+.venv/
+__pycache__/
+*.pyc
+node_modules/

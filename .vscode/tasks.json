@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Git: One-click commit and push",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}/scripts/sync.ps1"
+      ],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "group": { "kind": "build", "isDefault": true },
+      "runOptions": { "instanceLimit": 1 },
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    }
+  ]
+}
