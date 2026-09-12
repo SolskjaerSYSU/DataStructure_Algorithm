@@ -24,6 +24,7 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools",
     "editor.autoIndent": "full",
+    "editor.trimAutoWhitespace": false,
     "editor.autoClosingBrackets": "languageDefined",
     "editor.autoClosingQuotes": "languageDefined",
     "editor.autoSurround": "languageDefined",
