@@ -2,6 +2,8 @@
   "recommendations": [
     "ms-vscode.cpptools",
     "ms-vscode.cmake-tools",
-    "jemc.vscode-implicit-indent"
+    "jemc.vscode-implicit-indent",
+    "danielpinto8zz6.c-cpp-compile-run",
+    "formulahendry.code-runner"
   ]
 }
