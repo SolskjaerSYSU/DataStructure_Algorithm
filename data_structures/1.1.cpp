@@ -11,13 +11,24 @@
 //     cout << a << " " << b << endl;
 //     return 0;
 // }
+// #include <iostream>
+// #include <string>
+// using namespace std;
+// int main()
+// {
+//     int a;
+//     cin >> a;
+
+
+//     return 0;
+// }
+
 #include <iostream>
-#include <string>
+#include <algorithm>
 using namespace std;
 int main()
 {
-    int a;
-    cin >> a;
+
 
 
     return 0;
